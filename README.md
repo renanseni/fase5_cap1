@@ -7,63 +7,49 @@
 <br>
 
 # Nome do projeto
-
-## Nome do grupo
+🚜 FarmTech Solutions - Análise Agrícola com IA e Nuvem
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">rm570862@fiap.com.br - Renan Seni</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">rm569255@fiap.com.br - Caike</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Sabrina Otoni</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">André Godoi Chiovato</a>
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+A **FarmTech Solutions** é uma empresa especializada em prestação de serviços de tecnologia e Inteligência Artificial voltada para o agronegócio. Neste projeto, atendemos a uma fazenda de médio porte com aproximadamente 200 hectares (equivalente a 210 campos de futebol oficiais) que cultiva diversas safras agrícolas.
 
+O objetivo do projeto é utilizar dados históricos de solo e condições climáticas para:
+1. **Compreender e Agrupar Padrões de Produtividade:** Através de Análise Exploratória de Dados (EDA) e algoritmos de aprendizado não supervisionado (*K-Means*), identificando perfis climáticos e detectando *outliers* de produtividade.
+2. **Prever o Rendimento de Safras (Yield):** Desenvolvendo e comparando 5 modelos preditivos de regressão supervisionada para apoiar o planejamento produtivo da fazenda.
+3. **Dimensionar a Infraestrutura em Nuvem (AWS):** Estruturar uma arquitetura escalável e viável financeiramente na AWS para hospedar a API de Machine Learning e processar os dados capturados pelos sensores IoT no campo.
+
+---
 
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+- <b>.github</b>: Arquivos de configuração específicos do GitHub e automações do repositório.
+- <b>assets</b>: Elementos não-estruturados, como imagens das cotações da AWS e gráficos do relatório.
+- <b>config</b>: Arquivos e parâmetros de configuração do ambiente e dependências.
+- <b>document</b>: Documentações do projeto. Na subpasta "other", estão relatórios e PDFs auxiliares.
+- <b>scripts</b>: Scripts auxiliares e notebooks do projeto.
+- <b>src</b>: Todo o código-fonte desenvolvido. O notebook principal está localizado na raiz ou nesta pasta.
+- <b>README.md</b>: Guia principal e documentação geral do projeto (este arquivo).
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+---
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
-
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+### Pré-requisitos
+* **Python 3.10+** ou ambiente em nuvem **Google Colab**.
+* Bibliotecas necessárias: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`.
 
 ## 📋 Licença
 
