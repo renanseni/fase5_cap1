@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 396" width="600" height="396" role="img" aria-label="Comparativo de custo mensal e anual do EC2 t4g.micro entre as regioes de Norte da Virginia e Sao Paulo">
+  <rect x="0" y="0" width="600" height="396" rx="8" fill="#fcfcfb" stroke="#e6e5e1"/>
+  <text x="28" y="34" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#0b0b0b">Custo do EC2 t4g.micro + 50 GB EBS &#183; On-Demand 24/7</text>
+  <text x="28" y="53" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">Linux &#183; 2 vCPU &#183; 1 GiB de mem&#243;ria &#183; at&#233; 5 Gbps de rede &#183; valores em USD</text>
+
+  <rect x="28" y="68" width="10" height="10" rx="2" fill="#2a78d6"/>
+  <text x="44" y="77" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">N. Virg&#237;nia (us-east-1)</text>
+  <rect x="190" y="68" width="10" height="10" rx="2" fill="#eb6834"/>
+  <text x="206" y="77" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">S&#227;o Paulo (sa-east-1)</text>
+
+  <text x="28" y="110" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b">Custo mensal</text>
+  <line x1="60" y1="330.0" x2="250" y2="330.0" stroke="#d5d4cf" stroke-width="1"/>
+  <text x="50" y="334.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">0</text>
+  <line x1="60" y1="280.0" x2="250" y2="280.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="50" y="284.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">4</text>
+  <line x1="60" y1="230.0" x2="250" y2="230.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="50" y="234.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">8</text>
+  <line x1="60" y1="180.0" x2="250" y2="180.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="50" y="184.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">12</text>
+  <line x1="60" y1="130.0" x2="250" y2="130.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="50" y="134.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">16</text>
+  <path d="M 95.5 330 L 95.5 229.22500000000002 Q 95.5 225.22500000000002 99.5 225.22500000000002 L 115.5 225.22500000000002 Q 119.5 225.22500000000002 119.5 229.22500000000002 L 119.5 330 Z" fill="#2a78d6"/>
+  <text x="107.5" y="215.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b">US$ 8,38</text>
+  <text x="107.5" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">N. Virg&#237;nia</text>
+  <path d="M 190.5 330 L 190.5 157.975 Q 190.5 153.975 194.5 153.975 L 210.5 153.975 Q 214.5 153.975 214.5 157.975 L 214.5 330 Z" fill="#eb6834"/>
+  <text x="202.5" y="144.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b">US$ 14,08</text>
+  <text x="202.5" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">S&#227;o Paulo</text>
+
+  <text x="340" y="110" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b">Custo acumulado em 12 meses</text>
+  <line x1="372" y1="330.0" x2="562" y2="330.0" stroke="#d5d4cf" stroke-width="1"/>
+  <text x="362" y="334.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">0</text>
+  <line x1="372" y1="280.0" x2="562" y2="280.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="362" y="284.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">50</text>
+  <line x1="372" y1="230.0" x2="562" y2="230.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="362" y="234.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">100</text>
+  <line x1="372" y1="180.0" x2="562" y2="180.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="362" y="184.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">150</text>
+  <line x1="372" y1="130.0" x2="562" y2="130.0" stroke="#e6e5e1" stroke-width="1"/>
+  <text x="362" y="134.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">200</text>
+  <path d="M 407.5 330 L 407.5 233.42000000000002 Q 407.5 229.42000000000002 411.5 229.42000000000002 L 427.5 229.42000000000002 Q 431.5 229.42000000000002 431.5 233.42000000000002 L 431.5 330 Z" fill="#2a78d6"/>
+  <text x="419.5" y="219.4" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b">US$ 100,58</text>
+  <text x="419.5" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">N. Virg&#237;nia</text>
+  <path d="M 502.5 330 L 502.5 165.02 Q 502.5 161.02 506.5 161.02 L 522.5 161.02 Q 526.5 161.02 526.5 165.02 L 526.5 330 Z" fill="#eb6834"/>
+  <text x="514.5" y="151.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b">US$ 168,98</text>
+  <text x="514.5" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">S&#227;o Paulo</text>
+
+  <text x="28" y="378" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#52514e">Fonte: AWS Pricing Calculator (exporta&#231;&#227;o de 08/09/2026). S&#227;o Paulo custa +68,0%, uma diferen&#231;a de US$ 68,40 em 12 meses.</text>
+</svg>
